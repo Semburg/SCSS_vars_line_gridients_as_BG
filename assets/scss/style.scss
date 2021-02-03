@@ -1,0 +1,107 @@
+$sea: #00f6ff;
+$yellow: #ffcc00;
+$red: #ff4c4f;
+$lila: #cc00ff;
+$bla: #000;
+$wh: #fff;
+
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: $wh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(60deg, $sea 12.50%, $yellow 12.50%, $yellow 25%, $red 25%, 
+    $red 37.50%, $lila 37.50%, $lila 50%, $sea 50%, $sea 62.50%, $yellow 62.50%, $yellow 75%, 
+    $red 75%, $red 87.50%, $lila 87.50%, $lila 100%);
+
+    #kreuz{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left:50px;
+        top:50px;
+
+        #hor{
+            display: inline-block;
+            height: 2px;
+            width: 20px;
+            background-color: $bla;
+            margin-bottom: -15px;
+        }
+        #ver{
+            display: inline-block;
+            height: 20px;
+            width: 2px;
+            background-color: $bla;
+            margin-left: 9px;
+        }
+    }
+
+    #title_{
+        text-align: center;
+        h1{
+            padding: 0;
+            margin: 0;
+            line-height: 100%;
+            font-size: 16em;
+        }
+        h3{
+            @extend h1;
+            font-size: 6em;
+        }
+    }
+
+    #rounded_text{
+        position: absolute;
+        top: 140px;
+        right: 200px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: $lila;
+        color: $wh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 5em;
+        }
+    }
+
+    #icons{
+        position: absolute;
+        right: 300px;
+        bottom: 50px;
+        color: $bla;
+        width: 20px;
+        height: 20px;
+        background-color: bla;
+
+        display: flex;
+        justify-content: start;
+        // .lab{
+        //     width: 100px;
+        //     height: 20px;
+        //     background-color: blue;
+        //     // color: white;
+        //     &.la-twitter{
+        //         background-color: black;
+        //     }
+        // }
+    }
+
+
+    
+}

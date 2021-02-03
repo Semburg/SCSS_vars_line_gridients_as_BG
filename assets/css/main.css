@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(60deg, #00f6ff 12.5%, #ffcc00 12.5%, #ffcc00 25%, #ff4c4f 25%, #ff4c4f 37.5%, #cc00ff 37.5%, #cc00ff 50%, #00f6ff 50%, #00f6ff 62.5%, #ffcc00 62.5%, #ffcc00 75%, #ff4c4f 75%, #ff4c4f 87.5%, #cc00ff 87.5%, #cc00ff 100%);
+}
+body #kreuz {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 50px;
+  top: 50px;
+}
+body #kreuz #hor {
+  display: inline-block;
+  height: 2px;
+  width: 20px;
+  background-color: #000;
+  margin-bottom: -15px;
+}
+body #kreuz #ver {
+  display: inline-block;
+  height: 20px;
+  width: 2px;
+  background-color: #000;
+  margin-left: 9px;
+}
+body #title_ {
+  text-align: center;
+}
+body #title_ h1, body #title_ h3 {
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+  font-size: 16em;
+}
+body #title_ h3 {
+  font-size: 6em;
+}
+body #rounded_text {
+  position: absolute;
+  top: 140px;
+  right: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #cc00ff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #rounded_text h2 {
+  font-size: 5em;
+}
+body #icons {
+  position: absolute;
+  right: 300px;
+  bottom: 50px;
+  color: #000;
+  width: 20px;
+  height: 20px;
+  background-color: bla;
+  display: flex;
+  justify-content: start;
+}
+
+/*# sourceMappingURL=main.css.map */
